@@ -1,0 +1,79 @@
+/* CSS Reset */
+
+/* Zera as margens e preenchimentos padrões de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define o box-sizing como border-box para todos os elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Define o tamanho da fonte como 16 pixels para a maioria dos elementos */
+html {
+  font-size: 16px;
+}
+
+/* Define a fonte padrão e a cor do texto */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Remove a decoração de links padrão */
+a {
+  text-decoration: none;
+}
+
+/* Define as cores padrões para links */
+a:link {
+  color: #0077cc;
+}
+
+a:visited {
+  color: #4c2a85;
+}
+
+a:hover,
+a:focus {
+  color: #00aaff;
+}
+
+a:active {
+  color: #ff5a5f;
+}
+
+/* Define uma altura padrão para as imagens */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Remove a lista padrão de elementos não ordenados */
+ul {
+  list-style: none;
+}
+
+/* Define a largura e altura padrão para os botões */
+button,
+input[type="button"],
+input[type="submit"] {
+  width: auto;
+  height: auto;
+}
+
+/* Remove o estilo padrão de seleção de texto */
+::selection {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+/* Remove o estilo padrão de desabilitação de elementos */
+[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

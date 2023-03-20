@@ -1,0 +1,200 @@
+@media (min-width: 768px) {
+  .logo-mobile {
+    display: none;
+  }
+  img.logo-desktop {
+    width: 171px;
+    height: 36px;
+  }
+  body {
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  .top-menu {
+    width: 1600px;
+    height: 45px;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+  }
+  .margin-top {
+    width: 1250px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+  }
+  .buttons {
+    width: 1250px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+  .g1 a {
+    color: #c3170c;
+  }
+  .o-globo a {
+    color: #1e4b9b;
+  }
+  .valor a {
+    color: #006766;
+  }
+  .ge a {
+    color: #07aa47;
+  }
+  .cartola a {
+    color: #e3662b;
+  }
+  .globoplay a {
+    color: #fb0735;
+  }
+  .dropz a {
+    color: #ff75bb;
+  }
+  .gshow a {
+    color: #ec7d00;
+  }
+  .quem a {
+    color: #323333;
+  }
+  .receitas a {
+    color: #a81d83;
+  }
+
+  .page-content {
+    margin: auto;
+    margin-top: 34px;
+    width: 1250px;
+    height: 920px;
+    margin-left: 140px;
+    display: flex; /*Nao esqueça de apagar isso caso dê merda, lembre-se de tentar criar uma
+  div que englobe toda a div main + news-box1 + news-box2 e tentar usar o flex box para ficar bonitinho
+  e bem posicionado com o side-news*/
+  }
+  .main {
+    width: 624px;
+    border-bottom: 1px solid #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lead-story {
+    height: 312px;
+    width: 624px;
+  }
+  .news-box1 {
+    height: 338px;
+    width: 624px;
+    border-bottom: 1px solid #f5f6f7;
+    display: flex;
+    justify-content: space-between;
+  }
+  .new1 {
+    width: 193px;
+  }
+  img.photo1 {
+    margin-top: 25px;
+    height: 110px;
+    width: 193px;
+    border-radius: 12px;
+  }
+  .news-box2 {
+    height: 227px;
+    width: 624px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .new2 {
+    margin-top: 25px;
+    width: 193px;
+  }
+  .side-news {
+    display: flex;
+    width: 552px;
+    height: 887px;
+  }
+  .news-column {
+    width: 240px;
+  }
+  img.photo2 {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+  }
+  .new3 {
+    margin-top: 40px;
+  }
+  .divide {
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 1px;
+    height: 845px;
+    background-color: #f5f6f7;
+  }
+
+  h1 {
+    color: #c4160c;
+    font-size: 52px;
+  }
+  p.highlight {
+    margin-top: 29px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+  }
+  p.hint1 {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #c4170c;
+  }
+  p.hint2 {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #16ae54;
+  }
+  p.hint3 {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ec8006;
+  }
+
+  h2 {
+    margin-top: 6px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2f3134;
+  }
+  p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2f3134;
+  }
+  .border {
+    display: flex;
+    flex-direction: column;
+    height: 12px;
+    width: 624px;
+  }
+}
